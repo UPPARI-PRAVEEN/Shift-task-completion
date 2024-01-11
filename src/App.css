@@ -1,0 +1,149 @@
+.main-container {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.shifts-text {
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.area-counts {
+  margin: -10px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.count{
+  padding-left: 10px;
+  font-size: 1.3rem;
+  color:  #4F6C92;
+}
+.shift-container {
+  margin-top: 20px;
+}
+
+.shift-table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+  padding-top: 10px;
+}
+.header-row{
+  border: 1px solid ;
+  font-size: 1.2rem;
+  border-radius:  8px 8px 0 0;
+  padding-left: 10px;
+  color:   #004FB4;
+  background-color: #CBD2E1;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid ;
+  padding: 10px;
+  
+  
+}
+.booked-text{
+  color:  #E2006A;
+  font-size: 1rem;
+  margin-left: 50px;
+  
+}
+
+.data-col {
+  flex-grow: 1;
+  margin-left: 20px;
+  color: #A4B8D3;
+}
+
+.btn-book {
+  border: 1px solid #16A64D;
+  margin-left: 20px;
+  padding: 10px 35px;
+  background-color: #ffff;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+
+
+.selected-shifts-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.selected-shift-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #A4B8D3;
+}
+.area{
+  margin-left: 40px;
+  color: #A4B8D3;
+}
+.cancel-button{
+  border: 1px solid #16A64D;
+  margin-left: 20px;
+  padding: 10px 35px;
+  background-color: #ffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  .shifts-text {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  .area-counts {
+    font-size: 14px;
+  }
+
+  .shift-table {
+    font-size: 14px;
+  }
+
+  .data-row {
+    flex-direction: column;
+  }
+
+  
+
+  .selected-shift-item {
+    
+    font-size: 14px;
+    
+    padding-left: 11rem;
+   width: 100%;
+   border-radius: 5px;
+   
+   
+   
+  }
+  .selected-shifts-list{
+    
+    width: 100%;
+    
+    
+    
+  }
+  
+}
